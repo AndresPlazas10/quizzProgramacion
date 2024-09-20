@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudiantes</title>
+    <link rel="stylesheet" href="estudiantes.css">
+</head>
+<body>
+    <h2>Nombre: Andres Felipe Plazas Mendivelso</h2>
+    <h2>Nombre: Juan Sebastian Burgos Burgos</h2>
+    <form id="registro">
+
+        <br>
+
+        <label>Codigo</label>
+        <input type="text" id="codigo">
+
+        <br>
+        <br>    
+
+        <label>Nombre</label>
+        <input type="text" id="nombre">
+
+        <br>
+        <br>
+
+        <label>20%</label>
+        <input type="text" id="nota1">
+        <div id="errorNota1"></div>
+
+        <br>
+
+        <label>20%</label>
+        <input type="text" id="nota2">
+        <div id="errorNota2"></div>
+
+        <br>
+
+        <label>20%</label>
+        <input type="text" id="nota3">
+        <div id="errorNota3"></div>
+
+        <br>
+
+        <label>40%</label>
+        <input type="text" id="nota4">
+        <div id="errorNota4"></div>
+
+        <br>
+
+        <button type="submit" id="guardar">Guardar</button>
+
+        <br>
+
+    </form>
+    <table id="tabla" border="1px">
+        <thead>
+            <tr>
+                <th>Eliminar</th>
+                <th>Codigo</th>
+                <th>Nombre</th>
+                <th>20%</th>
+                <th>20%</th>
+                <th>20%</th>
+                <th>40%</th>
+                <th>Definitiva</th>
+                <th>A/No</th>
+            </tr>
+        </thead>
+       <tbody></tbody>
+    </table>
+    <script src="estudiantes.js"></script>
+</body>
+</html>
